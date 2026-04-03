@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import '..style.css'
 
 /* 📍 типы */
 type City = {
