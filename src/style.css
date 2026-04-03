@@ -1,0 +1,81 @@
+body {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("/home/Spike/vue-learn/src/assets/sky.jpg");
+}
+
+.page {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(#e1e6eb, #0492ff);
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+  background: none;
+
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.day {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.day:hover {
+  transform: scale(1.1);
+}
