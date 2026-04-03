@@ -2,7 +2,7 @@ body {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("/home/Spike/vue-learn/src/assets/sky.jpg");
+  background-image: url("./assets/sky.jpg");
 }
 
 .page {
