@@ -82,3 +82,28 @@ button:hover {
 .day:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+  .cities {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  .day {
+    width: calc(50% - 10px);
+  }
+  
+  .page {
+    padding: 10px;
+  }
+}
